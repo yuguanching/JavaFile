@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;StringFind.java&apos; to &apos;HW1/src/HW&apos;&#x0D;&#x0A;- Original project: &apos;HW1&apos;&#x0D;&#x0A;- Destination element: &apos;HW1/src/HW&apos;&#x0D;&#x0A;- Original element: &apos;StringFind.java&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move compilation unit" destination="/src&lt;HW" element1="/src&lt;{StringFind.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1457155526748" units="1" version="1.0"/>
+</session>

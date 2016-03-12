@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+<listEntry value="/HW1/src/HW/TTX.java"/>
+</listAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+<listEntry value="1"/>
+</listAttribute>
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="HW.TTX"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROGRAM_ARGUMENTS" value="&quot;&lt;tag&gt;action&lt;/tag&gt;&#13;&#10;&lt;application android:theme=&quot;@style/AppTheme&quot;&gt;&#13;&#10;&lt;activity android:name=&quot;.MainActivity&quot;&gt;&#13;&#10;&lt;intent-filter&gt;&#13;&#10;&lt;action android:name=&quot;android.intent.action.MAIN&quot;/&gt;&#13;&#10;&lt;category android:name=&quot;android.intent.category.LAUNCHER&quot;/&gt;&#13;&#10;&lt;/intent-filter&gt;&#13;&#10;&lt;/activity&gt;&#13;&#10;&lt;/application&gt;&quot;"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="HW1"/>
+</launchConfiguration>
