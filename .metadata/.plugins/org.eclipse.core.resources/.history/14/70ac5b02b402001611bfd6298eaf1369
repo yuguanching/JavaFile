@@ -1,0 +1,10 @@
+package Overriding;
+
+public class CreditCardPaymrnt extends Payment {
+	
+	public static void pay()
+	{
+		System.out.println("pay with credit card");
+	}
+
+}

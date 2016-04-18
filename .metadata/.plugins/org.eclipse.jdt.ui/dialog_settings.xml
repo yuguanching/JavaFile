@@ -10,7 +10,7 @@
 		<item value="false" key="nodeprecated"/>
 		<item value="false" key="nonavbar"/>
 		<item value="" key="docletpath"/>
-		<item value="C:\Program Files\Java\jdk1.8.0_73\bin\javaws.exe;C:\Program Files\Java\jdk1.8.0_73\bin\javaw.exe;C:\Program Files\Java\jre1.8.0_73\bin\javaws.exe" key="javadoc_command_history"/>
+		<item value="C:\Program Files\Java\jdk1.8.0_73\bin\javadoc.exe;C:\Program Files\Java\jdk1.8.0_73\bin\javaws.exe;C:\Program Files\Java\jdk1.8.0_73\bin\javaw.exe;C:\Program Files\Java\jre1.8.0_73\bin\javaws.exe" key="javadoc_command_history"/>
 		<item value="1.8" key="source"/>
 		<item value="true" key="version"/>
 		<item value="" key="docletname"/>
@@ -20,6 +20,11 @@
 		<item value="C:\Users\Administrator\Desktop\java\java lesson 2\doc" key="destdir"/>
 		<item value="false" key="openinbrowser"/>
 		<section name="projects">
+			<section name="HW2">
+				<item value="C:\Users\Administrator\Desktop\java\HW2\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\Administrator\Desktop\java\HW2\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
 			<section name="HW1">
 				<item value="C:\Users\Administrator\Desktop\java\HW1\javadoc.xml" key="antpath"/>
 				<item value="C:\Users\Administrator\Desktop\java\HW1\doc" key="destdir"/>
@@ -30,14 +35,14 @@
 				<item value="C:\Users\Administrator\Desktop\java\Test\doc" key="destdir"/>
 				<item value="" key="href"/>
 			</section>
-			<section name="Hello world">
-				<item value="C:\Users\Administrator\Desktop\java\Hello world\javadoc.xml" key="antpath"/>
-				<item value="C:\Users\Administrator\Desktop\java\Hello world\doc" key="destdir"/>
-				<item value="" key="href"/>
-			</section>
 			<section name="java lesson 2">
 				<item value="C:\Users\Administrator\Desktop\java\java lesson 2\javadoc.xml" key="antpath"/>
 				<item value="C:\Users\Administrator\Desktop\java\java lesson 2\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="java lesson 3">
+				<item value="C:\Users\Administrator\Desktop\java\java lesson 3\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\Administrator\Desktop\java\java lesson 3\doc" key="destdir"/>
 				<item value="" key="href"/>
 			</section>
 		</section>

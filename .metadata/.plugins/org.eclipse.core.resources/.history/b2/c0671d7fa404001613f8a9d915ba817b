@@ -1,0 +1,86 @@
+package BigData;
+
+import java.util.ArrayList;
+import java.util.StringTokenizer;
+
+public class MainFunction {
+
+	public static void main(String[] args) {
+
+		int i=1,j=0;
+		int size ;
+		String string_sum ;
+		StringTokenizer stringTokenizer = new StringTokenizer(args[0]);
+
+		ArrayList<String> arrayList = new ArrayList<String>() ;
+		
+		do
+		{
+			arrayList.add(stringTokenizer.nextToken());
+		}while(stringTokenizer.hasMoreElements());
+		/*List 中 ，偶數index表字串，奇數index表運算子，由左而右運算*/
+		size = arrayList.size();
+		//作compare運算
+		if(arrayList.get(1).equals("<")||arrayList.get(1).equals(">")||arrayList.get(1).equals("="))
+		{
+		String string_com = "0" ;
+		if(arrayList.get(1).equals("<"))
+		{
+			string_com = "-1";
+		}
+		else if(arrayList.get(1).equals("="))
+		{
+			string_com = "0";
+		}
+		else if (arrayList.get(1).equals(">"))
+		{
+			string_com = "1";
+		}
+		IOperation comparison = new Comparison() ;
+		string_sum = comparison.perform(arrayList.get(0), arrayList.get(2));
+		
+		if(string_sum.equals(string_com))
+		{
+			System.out.println("true");
+		}
+		else 
+		{
+			System.out.println("false");
+		}
+		
+		}
+		
+		//作加或減運算
+
+		else {
+
+			String string_temp = "" ;
+			IOperation addition = new Addition() ;
+			IOperation subtraction = new Subtraction() ;
+			string_temp = arrayList.get(j);
+			while(i<size)
+			{
+
+			if(arrayList.get(i).equals("+"))
+			{
+				System.out.println(string_temp);
+				string_temp = addition.perform(string_temp, arrayList.get(j+2));
+		
+			}
+			else if(arrayList.get(i).equals("-"))
+			{
+
+				string_temp = subtraction.perform(string_temp, arrayList.get(j+2));
+				
+			}
+			j = j + 2 ;
+			i = i + 2 ;
+			
+			}
+			string_sum = string_temp ;
+			
+			System.out.println(string_sum);
+		}
+	}
+
+}

@@ -1,0 +1,27 @@
+package BigData;
+
+import java.util.ArrayList;
+import java.util.StringTokenizer;
+
+public class MainFunction {
+
+	public static void main(String[] args) {
+
+		int i ;
+		StringTokenizer stringTokenizer = new StringTokenizer(args[0]);
+
+		ArrayList<String> arrayList = new ArrayList<String>() ;
+		
+		do
+		{
+			arrayList.add(stringTokenizer.nextToken(" "));
+		}while(stringTokenizer.hasMoreElements());
+		
+		for(i=0;(i+1)!=arrayList.size();i++)
+		{
+			System.out.println(arrayList.get(i));
+		}
+		
+	}
+
+}
